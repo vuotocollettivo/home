@@ -1,0 +1,133 @@
+*
+{
+  cursor:crosshair;
+  overflow-x: hidden ;
+}
+
+body {
+  background-color: #fff !important;
+  color: #333 !important;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.infos {
+  z-index: 1; 
+}
+
+
+.half2 {
+  display: inline;
+  position: fixed;
+  top: 2%;
+  left: 1%;
+  line-height: 16px;
+}
+
+.half3 {
+    display: inline;
+    position: fixed;
+    top: 30%;
+    max-width: 30%;
+    left: 1%;
+    line-height: 16px;
+}
+
+.copyright {
+ 
+ font-size: 10px;
+ position: fixed;
+ bottom: 2%;
+}
+
+.copyright2 {
+  
+  font-size: 10px;
+  position: fixed;
+  bottom: 4%;
+ }
+
+ .copyright3 {
+  
+  font-size: 10px;
+  position: fixed;
+  bottom: 7%;
+ }
+
+.content {
+  position: relative;
+  display: none;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  z-index: -1;
+  overflow: hidden;
+ }
+
+ .content img{
+  max-width: auto;
+  max-height: 300px;
+}
+
+.content video{
+  max-width: auto;
+  max-height: 300px;
+}
+
+.immagini {
+  position: relative;
+  text-align: center;
+  display: block;
+}
+ 
+
+.special:hover {
+  opacity: 50%;
+ }
+
+.claim2 {
+  text-indent: 12px;
+ }
+
+ .special {
+  display: inline;
+  margin-bottom: 12px;
+ }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #333;
+  background-color: transparent;
+}
+a:hover, a:active {
+  text-shadow: 1px 1px 1px rgba(137, 137, 137, 0.73), 1px -1px 1px rgba(137, 137, 137, 0.73), -1px 1px 1px rgba(137, 137, 137, 0.73), -1px -1px 1px rgba(137, 137, 137, 0.73);
+  color:rgba(137, 137, 137, 0.73)
+}
+
+
+
+.darkmode {
+  z-index: 3;
+  position: fixed;
+  top: 10px;
+  left: 98%;
+}
+
+.dark-mode {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.dark-mode a {
+  color: #fff !important;
+}
+
+.dark-mode a:visited {
+  color: #fff !important;
+}
+
+.dark-mode a:active {
+  color: #fff !important; /* Cambia il colore dei link visitati in grigio */
+}
+
+
