@@ -38,7 +38,7 @@ body {
   display: inline;
   position: fixed;
   top: 2%;
-  left: 4%;
+  left: 3%;
   line-height: 16px;
 }
 }
@@ -58,7 +58,7 @@ body {
   position: fixed;
   top: 30%;
   max-width: 90%;
-  left: 4%;
+  left: 3%;
   line-height: 16px;
 }
 }
@@ -149,7 +149,7 @@ a:hover, a:active {
   z-index: 3;
   position: fixed;
   top: 10px;
-  left: 95%;
+  left: 96%;
 }
 }
 
