@@ -7,8 +7,17 @@
 body {
   background-color: #fff !important;
   color: #333 !important;
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+body {
+  background-color: #fff !important;
+  color: #333 !important;
+  font-family: sans-serif;
+  font-size: 14px;
+}
 }
 
 .infos {
@@ -24,6 +33,15 @@ body {
   line-height: 16px;
 }
 
+@media screen and (max-width: 600px) {
+.half2 {
+  display: inline;
+  position: fixed;
+  top: 2%;
+  left: 4%;
+  line-height: 16px;
+}
+
 .half3 {
     display: inline;
     position: fixed;
@@ -31,6 +49,16 @@ body {
     max-width: 30%;
     left: 1%;
     line-height: 16px;
+}
+
+@media screen and (max-width: 600px) {
+.half3 {
+  display: inline;
+  position: fixed;
+  top: 30%;
+  max-width: 90%;
+  left: 4%;
+  line-height: 16px;
 }
 
 .copyright {
@@ -63,6 +91,7 @@ body {
   z-index: -1;
   overflow: hidden;
  }
+
 
  .content img{
   max-width: auto;
@@ -111,6 +140,15 @@ a:hover, a:active {
   position: fixed;
   top: 10px;
   left: 98%;
+}
+
+@media screen and (max-width: 600px) {
+.darkmode {
+  z-index: 3;
+  position: fixed;
+  top: 10px;
+  left: 95%;
+}
 }
 
 .dark-mode {
